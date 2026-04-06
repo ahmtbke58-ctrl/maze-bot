@@ -44,6 +44,7 @@ const questionPool = {
         { q: "Who painted the 'Mona Lisa'? 🎨", opts: ["🎨 Van Gogh", "🎨 Da Vinci", "🎨 Picasso"], a: 1 },
         { q: "Which organ produces insulin? 🩺", opts: ["🧪 Liver", "🧪 Pancreas", "🧪 Kidney"], a: 1 },
         { q: "Where is Machu Picchu? 🇵🇪", opts: ["🇧🇴 Bolivia", "🇵🇪 Peru", "🇨🇴 Colombia"], a: 1 },
+        { q: "How much does a newborn Blue Whale calf weigh approximately? 🐋", opts: ["⚖️ 500 kg", "⚖️ 2,700 kg", "⚖️ 5,000 kg"], a: 1 },  
         { q: "Which of these iconic landmarks was officially opened first? 🏛️", opts: ["🗼 Eiffel Tower", "🗽 Statue of Liberty", "🌉 Brooklyn Bridge"],  a: 2 },
         { q: "Elon Musk's birth year? 🚀", opts: ["🗓️ 1971", "🗓️ 1965", "🗓️ 1980"], a: 0 }
         // ... (Tier 4 için 15 soru daha eklenebilir)
@@ -53,6 +54,8 @@ const questionPool = {
         { q: "Chemical symbol for Gold? 🧪", opts: ["🧪 Ag", "🧪 Fe", "🧪 Au"], a: 2 },
         { q: "Most populated city in the world? 🌏", opts: ["🏙️ Tokyo", "🏙️ Shanghai", "🏙️ Delhi"], a: 0 },
         { q: "Who discovered Penicillin? 💊", opts: ["🔬 Fleming", "🔬 Pasteur", "🔬 Curie"], a: 0 },
+        { q: "The first successful airplane flight by Wright Brothers lasted how long? ✈️", opts: ["⏱️ 12 sec", "⏱️ 59 sec", "⏱️ 5 min"], a: 0 },  
+        { q: "In which year was the first mobile phone call made? 📱", opts: ["🗓️ 1973", "🗓️ 1983", "🗓️ 1991"], a: 0 }, 
         { q: "Which planet in our solar system has the shortest day, lasting only about 10 hours? 🪐", opts: ["🪐 Mars", "🪐 Jupiter", "🪐   Saturn"], a: 1 },
         { q: "Smallest country in the world? 🇻🇦", opts: ["🇲🇨 Monaco", "🇻🇦 Vatican City", "🇲🇹 Malta"], a: 1 }
         // ... (Tier 5 için 15 soru daha eklenebilir)
