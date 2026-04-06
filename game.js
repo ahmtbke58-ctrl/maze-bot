@@ -1,4 +1,4 @@
-    <script>
+
 let level = 1;
 const totalLevels = 10;
 let totalAccumulated = 150; // Başlangıç 150
@@ -208,5 +208,5 @@ async function processPayment() {
 
 initGame();
 
-  </script>
+ 
 
