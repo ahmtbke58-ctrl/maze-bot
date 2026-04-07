@@ -1,6 +1,6 @@
 let level = 1;
 const totalLevels = 10;
-let totalAccumulated = 120;
+let totalAccumulated = 150;
 let currentQuestions = [];
 
 // --- AYARLAR ---
@@ -13,7 +13,7 @@ const directAdUrl =  "https://omg10.com/4/6121210";
 const questionPool = [
     // --- DÜNYA ŞEHİRLERİ VE KONUM (20 Soru) ---
     { q: "Atomium anıt binası hangi şehirdedir? 🗼", opts: ["🇫🇷 Brüksel", "🇮🇹 Roma", "🇩🇪 Berlin"], a: 0 },
-    { q: "Kolezyum nerede bulunur? 🏟️", opts: ["🇬🇷 Atina", "🇮🇹 Roma", "🇪🇸 Madrid"], a: 1 },
+    { q: "Transfermarkt'a göre en fazla bonservis bedeli ödenen futbolcu? ⚽", opts: ["⚽ Messi", "⚽ Neymar", "⚽ Cristiana Ronaldo"], a: 1 },
     { q: "Kanallarıyla ünlü şehir hangisidir? 🛶", opts: ["🇳🇱 Amsterdam", "🇮🇹 Venedik", "🇧🇪 Brüksel"], a: 1 },
     { q: "Nijerya'nın başkenti hangisidir? 🗾", opts: ["NJ Kano", "NJ Lagos", "NJ Abuja"], a: 2 },
     { q: "Özgürlük Heykeli hangi şehirdedir? 🗽", opts: ["🇺🇸 New York", "🇺🇸 Los Angeles", "🇺🇸 Chicago"], a: 0 },
